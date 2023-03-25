@@ -9,7 +9,7 @@ header{
     display: flex;
     justify-content: space-between;
     background-color: #59316b;
-    padding: 35px;
+    padding: 30px;
 }
 
 .left-nav{
@@ -31,14 +31,322 @@ header{
 
 .navbar{
     display: flex;
+    align-items: center;
     gap: 20px;
 }
 
 .navbar P{
-    font-size: 16px;
+    font-size: 14px;
+    color: white;
 }
 
 .right-nav{
     display: flex;
+    gap: 10px;
+}
+
+.lang-setting{
+    display: flex;
+    align-items: center;
+}
+
+.lang{
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.download-tor{
+    display: flex;
+    align-items: center;
+}
+
+.download-btn{
+    font-size: 14px;
+    color: white;
+    border: 1px solid white;
+    padding: 8px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.download-btn span{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.page{
+    padding: 0 0 100px;
+}
+
+.block1{
+    height:550px;
+    background-color: #59316b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.row1{
+    font-size: 80px;
+    font-weight: 200;
+    color: white;
+}
+
+.row2{
+    color: white;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 24px;
+}
+
+.tor-download-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 10px 15px; 
+}
+
+.block2{
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.card{
+    height: 300px;
+    display: flex;
+}
+
+.card-img{
+    width: 45%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card-text{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card1 .card-img{
+    background-image: url("https://www.torproject.org/static/images/home/svg/block-trackers.svg?h=70991bcb");
+}
+
+.card2 .card-img{
+    background-image: url("https://www.torproject.org/static/images/home/svg/surveillance.svg?h=688a829c");
+}
+
+.card3 .card-img{
+    background-image: url("https://www.torproject.org/static/images/home/svg/fingerprinting.svg?h=11fc8c97");
+}
+
+.card4 .card-img{
+    background-image: url("https://www.torproject.org/static/images/home/svg/encryption.svg?h=4b28f3dd");
+}
+
+.card5 .card-img{
+    background-image: url("https://www.torproject.org/static/images/home/svg/browse-freely.svg?h=23b7d7d3");
+}
+
+
+.head1{
+    color: #7d4698;
+    font-size: 22px;
+}
+
+.head2{
+    font-size: 18px;
+    display: flex;
+}
+
+.block3{
+    padding: 0px 200px;
+}
+
+.block3-head1{
+    font-size: 15px;
+    color: #7d4698;
+    font-weight: 600;
+}
+
+.block3-head2{
+    font-size: 60px;
+    font-weight: 200;
+    color: #484848;
+}
+
+.block3-head2 a{
+    color: #7d4698;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #58306B;
+    padding: 80px 200px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: white;
+}
+
+
+.sect1{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.wrapper{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
     gap: 20px;
+}
+
+.sect1-head{
+    font-size: 28px;
+}
+
+.sect1-body{
+    font-size: 18px;
+}
+
+.s-btn{
+    display: flex;
+}
+
+.sect1-button{ 
+    border: 1px solid white;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 10px;
+    border-radius: 5px;
+    background-color: white;
+    color: #58306B;
+    gap: 5px;
+}
+
+.sect1-button span{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sect2{
+    display: flex;
+    gap: 30px;
+}
+
+.sect2-text{
+    width: 67%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sect2-head{
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.sect2-body{
+    font-size: 18px;
+}
+
+.sect2-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sect2-nav p{
+    font-size: 14px;
+}
+
+.sect2-nav-btn{
+    font-size: 14px;
+    background-color: #ffbf00;
+    color: black;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.sect3{
+    display: flex;
+    gap: 30px;
+}
+
+.sect3-text{
+    width: 67%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sect3-body{
+    font-size: 18px;
+}
+
+.sect3-button{
+    background-color: rgba(0, 0, 0, 0.312);
+    font-size: 14px;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.sect3-icons{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sect3-row{
+    display: flex;
+    gap: 30px;
+}
+
+.sect4{
+    background-color: #58306B;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 100px 10px;
+}
+
+.sect4-text{
+font-size: 18px;
+}
+
+.sect4-text a{
+    color: inherit;
+}
+
+.sect4-btn .lang{
+    background-color: #7d4698;
+    padding: 8px 10px;
+    border-radius: 5px;
 }
