@@ -19,6 +19,7 @@ header{
 
 .icon img{
     width: 80px;
+    cursor: pointer;
 }
 
 .donate-btn{
@@ -27,6 +28,7 @@ header{
     border-radius: 5px;
     font-size: 16px;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .navbar{
@@ -38,6 +40,11 @@ header{
 .navbar P{
     font-size: 14px;
     color: white;
+    cursor: pointer;
+}
+
+.navbar P:hover{
+    color: rgb(190, 181, 181);
 }
 
 .right-nav{
@@ -71,6 +78,12 @@ header{
     display: flex;
     align-items: center;
     gap: 5px;
+    cursor: pointer;
+}
+
+.download-btn:hover{
+    background-color: white;
+    color: black;
 }
 
 .download-btn span{
@@ -120,7 +133,13 @@ header{
     border: 1px solid white;
     border-radius: 5px;
     font-size: 18px;
-    padding: 10px 15px; 
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.tor-download-btn:hover{
+    background-color: white;
+    color: black;
 }
 
 .block2{
@@ -201,6 +220,11 @@ header{
     text-decoration: none;
 }
 
+.block3-head2 a:hover{
+    color: #59316b;
+    text-decoration: underline;
+}
+
 footer{
     background-color: #58306B;
     padding: 80px 200px 0;
@@ -247,6 +271,7 @@ footer{
     background-color: white;
     color: #58306B;
     gap: 5px;
+    cursor: pointer;
 }
 
 .sect1-button span{
@@ -283,6 +308,7 @@ footer{
 
 .sect2-nav p{
     font-size: 14px;
+    cursor: pointer;
 }
 
 .sect2-nav-btn{
@@ -292,6 +318,7 @@ footer{
     font-weight: 600;
     border-radius: 5px;
     padding: 5px;
+    cursor: pointer;
 }
 
 .sect3{
@@ -315,6 +342,7 @@ footer{
     font-size: 14px;
     padding: 8px 15px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .sect3-icons{
@@ -327,6 +355,10 @@ footer{
 .sect3-row{
     display: flex;
     gap: 30px;
+}
+
+.sect3-row i{
+    cursor: pointer;
 }
 
 .sect4{
@@ -349,4 +381,9 @@ font-size: 18px;
     background-color: #7d4698;
     padding: 8px 10px;
     border-radius: 5px;
+    cursor: default;
+}
+
+.sect4-btn .lang:hover{
+    background-color: #7d469885;
 }
